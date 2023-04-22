@@ -56,11 +56,11 @@ types:
         type: b4be
       - id: tens_of_minutes
         type: b4be
-      - id: hundres_of_minutes
+      - id: hundreds_of_minutes
         type: b4be
     instances:
       time:
-        value: (hundres_of_minutes * 100.0) + (tens_of_minutes * 10.0) + (units_of_minutes * 1.0) + (tenths_of_minutes * 0.1)
+        value: (hundreds_of_minutes * 100.0) + (tens_of_minutes * 10.0) + (units_of_minutes * 1.0) + (tenths_of_minutes * 0.1)
   gama_003:
     seq:
       - id: tenths_of_knots
